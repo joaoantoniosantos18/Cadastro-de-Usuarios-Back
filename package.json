@@ -1,0 +1,31 @@
+{
+  "name": "cadastro-de-usuarios-back",
+  "version": "1.0.0",
+  "description": "Sistema de cadastro de usuários utilizando Node.js, Express e MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoantoniosantos18/Cadastro-de-Usuarios-Back.git"
+  },
+  "keywords": [],
+  "author": "João Antonio Santos",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joaoantoniosantos18/Cadastro-de-Usuarios-Back/issues"
+  },
+  "homepage": "https://github.com/joaoantoniosantos18/Cadastro-de-Usuarios-Back#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
